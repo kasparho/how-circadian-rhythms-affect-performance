@@ -17,12 +17,10 @@ def anonymize(filename, name_column):
     return df
 
 
-df = pd.read_csv("common2.csv")
-
 c1 = "Your name (or a made up name if you prefer so - just make sure to use the same name every time!)"
 c2 = "Your name (or a made up name if you prefer so - just make sure to use the same name every time and it's the same name you gave in the general questionnaire!)"
 
 common = anonymize("common2.csv", c2)
-common.to_csv("out_common.csv")
+#common.to_csv("out_common.csv")
 general = anonymize("general.csv", c1)
-general.to_csv("out_general.csv")
+#general.to_csv("out_general.csv")
