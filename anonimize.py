@@ -20,7 +20,7 @@ def anonymize(filename, name_column):
 c1 = "Your name (or a made up name if you prefer so - just make sure to use the same name every time!)"
 c2 = "Your name (or a made up name if you prefer so - just make sure to use the same name every time and it's the same name you gave in the general questionnaire!)"
 
-common = anonymize("common2.csv", c2)
+common_ano = anonymize("common2.csv", c2)
 #common.to_csv("out_common.csv")
-general = anonymize("general.csv", c1)
+general_ano = anonymize("general.csv", c1)
 #general.to_csv("out_general.csv")
