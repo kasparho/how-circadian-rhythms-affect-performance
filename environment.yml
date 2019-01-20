@@ -1,0 +1,10 @@
+name: neuro-project-2018
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - matplotlib
+  - pandas
+  - sklearn
+  - statsmodels
+  - scipy
